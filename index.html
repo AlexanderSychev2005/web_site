@@ -5,33 +5,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Landing page</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon" />
+    <style>
+        body {
+            background-color: rgb(154, 191, 246);
+        }
+
+        header {
+            background-image: url(img/header/background.jpg)
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <div class="nav_bar">
-            <nav>
-                <div class="menu">
-                    <a href="#">Home</a> |
-                    <a href="#">Product</a> |
-                    <a href="#">Pricing</a> |
-                    <a href="#">About</a>
-                    <a href="#">Contacts</a>
-                </div>
-            </nav>
-            <div class="right">
-                <div class="social">
-                    <!--
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                -->
-                </div>
+    <header class="header">
+        <nav class="nav_bar">
+            <div class="menu_links">
+                <ul class="list_of_links">
+                    <li><a class="nav_bar_links" href="#">Home</a></li>
+                    <li><a class="nav_bar_links" href="#">Product</a></li>
+                    <li><a class="nav_bar_links" href="#">Pricing</a></li>
+                    <li><a class="nav_bar_links" href="#">About</a></li>
+                    <li><a class="nav_bar_links" href="#">Contacts</a></li>
+                </ul>
+                <a class="nav_bar_logo" href="#">
+                    <img src="img/header/figma-land-logo.svg" alt="Figmaland logo">
+                </a>
             </div>
-        </div>
-
+            <ul class="nav_bar_icons">
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social networks/twitter-icon.svg" alt="Twitter icon">
+                    </a>
+                </li>
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social networks/facebook-icon.svg" alt="Facebook icon">
+                    </a>
+                </li>
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social networks/linkedin-icon.svg" alt="Instagram icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <div>
             <h1>The best products start with Figma</h1>
             <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
@@ -58,9 +77,10 @@
                 <h3>Fastest way to take action</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
-            <video width="320" height="240" controls>
-                <source src="#" type="video/mp4">
-            </video>
+            <iframe width="1046" height="484" src="https://www.youtube.com/embed/qYJWHkZfQxM"
+                title="Baby Yoda ( Grogu) cute moments❤️" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
         </div>
         <div class="way_to_organise">
             <h2>Fastest way to organize </h2>
@@ -81,10 +101,40 @@
             <h2>Partners</h2>
             <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
             <div class="company-logos">
-                <div class="company-logo"></div>
-                <div class="company-logo"></div>
-                <div class="company-logo"></div>
-                <div class="company-logo"></div>
+                <ul class="partners_list">
+                    <li class="partners_list">
+                        <a class="partners_link" href="#"><img class="partners_logo" src="img/partners/google-logo.jpg"
+                                alt="Google icon"></a>
+                    </li>
+                    <li class="partners_list">
+                        <a class="partners_link" href="#"><img class="partners_logo" src="img/partners/Amazon-logo.jpg"
+                                alt="Amazon icon"></a>
+                    </li>
+                    <li class="partners_list">
+                        <a class="partners_link" href="#"><img class="partners_logo"
+                                src="img/partners/microsoft-logo.jpg" alt="Microsoft icon"></a>
+                    </li>
+                    <li class="partners_list">
+                        <a class="partners_link" href="#"><img class="partners_logo" src="img/partners/uber-logo.jpg"
+                                alt="Uber icon"></a>
+                    </li>
+                    <li class="partners_list">
+                        <a class="partners_link" href="#"><img class="partners_logo" src="img/partners/dropbox-logo.jpg"
+                                alt="Dropbox icon"></a>
+                    </li>
+                    <li class="partners_list">
+                        <a class="partners_link" href="#"><img class="partners_logo" src="img/partners/google-logo.jpg"
+                                alt="Google icon"></a>
+                    </li>
+                    <li class="partners_list">
+                        <a class="partners__link" href="#"><img class="partners_logo" src="img/partners/uber-logo.jpg"
+                                alt="Uber icon"></a>
+                    </li>
+                    <li class="partners_list">
+                        <a class="partners_link" href="#"><img class="partners_logo" src="img/partners/Amazon-logo.jpg"
+                                alt="Amazon icon"></a>
+                    </li>
+                </ul>
             </div>
             <button type="button" name="try_it">Try it for free</button>
         </div>
@@ -168,8 +218,7 @@
                         <h6>(843) 555-0130</h6>
                     </div>
                 </div>
-                <iframe src="[your unique google URL] " width="600" height="450" style="border:0;" allowfullscreen=""
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h1>There must be google maps!</h1>
                 <div class="social">
                     <img>
                     <img>
@@ -177,45 +226,68 @@
                 </div>
             </div>
         </div>
-        < </main>
-            <footer>
-                <div class="column_one">
-                    <h3>Page</h3>
-                    <ul style="list-style-type:none">
-                        <li>Home</li>
-                        <li>Product</li>
-                        <li>Pricing</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                </div>
-                <div class="column_two">
-                    <h3>Tomothy</h3>
-                    <ul style="list-style-type:none">
-                        <li>Eleanor Edwards</li>
-                        <li>Ted Robertson</li>
-                        <li>Annette Russell</li>
-                        <li>Jennie Mckinney</li>
-                        <li>Gloria Richards</li>
-                </div>
-                <div class="column_third">
-                    <h3>Jane Black</h3>
-                    <ul style="list-style-type:none">
-                        <li>Philip Jones</li>
-                        <li>Product</li>
-                        <li>Colleen Russell</li>
-                        <li>Marvin Hawkins</li>
-                        <li>Bruce Simmmons</li>
-                </div>
-                <div class="right_block">
-                    <div class="Point"></div>
-                    <div class="Phone"></div>
-                </div>
-                <div class="social">
-                    <!--<img>
-                    <img>
-                    <img> -->
-                </div>
-            </footer>
+    </main>
+    <footer class="footer">
+        <div class="column_one">
+            <h3>Page</h3>
+            <ul style="list-style-type:none">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+        </div>
+        <div class="column_two">
+            <h3>Tomothy</h3>
+            <ul style="list-style-type:none">
+                <li><a href="#">Eleanor Edwards</a></li>
+                <li><a href="#">Ted Robertson</a></li>
+                <li><a href="#">Annette Russell</a></li>
+                <li><a href="#">Jennie Mckinney</a></li>
+                <li><a href="#">Gloria Richards</a></li>
+        </div>
+        <div class="column_third">
+            <h3>Jane Black</h3>
+            <ul style="list-style-type:none">
+                <li><a href="#">Philip Jones</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Colleen Russell</a></li>
+                <li><a href="#">Marvin Hawkins</a></li>
+                <li><a href="#">Bruce Simmmons</a></li>
+        </div>
+        <div class="footer_contacts">
+            <div class="right_block">
+                <ul class="footer_contacts_point_phone">
+                    <li class="footer_contacts_point">
+                        <img src="img/footer/map-icon.svg" alt="Map icon">
+                        <p>7480 Mockingbird Hill undefined</p>
+                    </li>
+                    <li class="footer_contacts_phone">
+                        <img src="img/footer/phone-icon.svg" alt="Phone icon">
+                        <p>(239) 555-0108</p>
+                    </li>
+                </ul>
+            </div>
+            <ul class="nav_bar_icons">
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social networks/twitter-icon.svg" alt="Twitter icon">
+                    </a>
+                </li>
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social networks/facebook-icon.svg" alt="Facebook icon">
+                    </a>
+                </li>
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social networks/linkedin-icon.svg" alt="Instagram icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
 </body>
 
 </html>
