@@ -192,47 +192,61 @@
         <div class="Contacts">
             <h2>Contact Us</h2>
             <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-            <div class="left_container">
-                <h3>Contact Us</h3>
-                <input type="name" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="message" placeholder="Your Message" required>
-                <button type="button" name="Send">Send</button>
+            <div class="contacts_form_div">
+                <h3 class="contacts_form_name">Contact us</h3>
+                <form class="contacts_form" action="#">
+                    <ul class="contacts_form_list">
+                        <li class="contacts_names_list">
+                            <input class="contacts__form-name" type="text" placeholder="Your Name" required>
+                        </li>
+                        <li class="contacts_names_list">
+                            <input class="contacts__form-email" type="email" placeholder="Your Email" required>
+                        </li>
+                        <li class="contacts_names_list">
+                            <textarea class="contacts__form-textarea" cols="30" rows="10"
+                                placeholder="Your Message" required></textarea>
+                        </li>
+                        <li class="contacts_names_list">
+                            <button class="btn contacts__form-btn">Send</button>
+                        </li>
+                    </ul>
+                </form>
             </div>
-            <div class="right_container">
-                <div class="items">
-                    <div class="first item">
-                        <img src="img/items/first_item.jpg" alt="first item vector">
-                        <h6>6386 Spring St undefined Anchorage, Georgia 12473 United States</h6>
-                    </div>
-                    <div class="second item">
-                        <img src="img/items/second_item.jpg" alt="second item vector">
-                        <h6>(843) 555-0130</h6>
-                    </div>
-                    <div class="third item">
-                        <img src="img/items/third_item.jpg" alt="third item vector">
-                        <h6>(843) 555-0130</h6>
-                    </div>
+        </div>
+        <div class="right_container">
+            <div class="items">
+                <div class="first item">
+                    <img src="img/items/first_item.jpg" alt="first item vector">
+                    <h6>6386 Spring St undefined Anchorage, Georgia 12473 United States</h6>
                 </div>
-                <h1>There must be google maps!</h1>
-                <ul class="nav_bar_icons">
-                    <li class="nav_bar_icons">
-                        <a class="nav_bar_link_icon" href="#">
-                            <img src="img/header/social_networks/twitter-icon.svg" alt="Twitter icon">
-                        </a>
-                    </li>
-                    <li class="nav_bar_icons">
-                        <a class="nav_bar_link_icon" href="#">
-                            <img src="img/header/social_networks/facebook-icon.svg" alt="Facebook icon">
-                        </a>
-                    </li>
-                    <li class="nav_bar_icons">
-                        <a class="nav_bar_link_icon" href="#">
-                            <img src="img/header/social_networks/linkedin-icon.svg" alt="Instagram icon">
-                        </a>
-                    </li>
-                </ul>
+                <div class="second item">
+                    <img src="img/items/second_item.jpg" alt="second item vector">
+                    <h6>(843) 555-0130</h6>
+                </div>
+                <div class="third item">
+                    <img src="img/items/third_item.jpg" alt="third item vector">
+                    <h6>(843) 555-0130</h6>
+                </div>
             </div>
+            <h1>There must be google maps!</h1>
+            <ul class="nav_bar_icons">
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social_networks/twitter-icon.svg" alt="Twitter icon">
+                    </a>
+                </li>
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social_networks/facebook-icon.svg" alt="Facebook icon">
+                    </a>
+                </li>
+                <li class="nav_bar_icons">
+                    <a class="nav_bar_link_icon" href="#">
+                        <img src="img/header/social_networks/linkedin-icon.svg" alt="Instagram icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
         </div>
     </main>
     <footer class="footer">
