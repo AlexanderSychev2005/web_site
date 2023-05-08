@@ -17,40 +17,48 @@
 <body>
     <header class="header">
         <nav class="header__nav-bar">
-            <div class="header__menu_links">
-                <ul class="header__list-of-links">
-                    <li><a class="nav_bar__links" href="#">Home</a></li>
-                    <li><a class="nav_bar__links" href="#">Product</a></li>
-                    <li><a class="nav_bar__links" href="#">Pricing</a></li>
-                    <li><a class="nav_bar__links" href="#">About</a></li>
-                    <li><a class="nav_bar__links" href="#">Contacts</a></li>
-                </ul>
+            <div class="header__logo">
                 <a class="nav_bar__logo" href="#">
                     <img src="img/header/figma-land-logo.svg" alt="Figmaland logo">
                 </a>
             </div>
-            <ul class="nav_bar__icons-list">
-                <li class="nav_bar__icons">
+            <button class="header__burger-menu" type="button">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+
+            <ul class="header__menu">
+                <li><a class="header__menu-item" href="#">Home</a></li>
+                <li><a class="header__menu-item" href="#">Product</a></li>
+                <li><a class="header__menu-item" href="#">Pricing</a></li>
+                <li><a class="header__menu-item" href="#">About</a></li>
+                <li><a class="header__menu-item" href="#">Contacts</a></li>
+            </ul>
+
+            <ul class="header__icons-list">
+                <li class="header__icons-icons">
                     <a class="nav_bar_link_icon" href="#">
                         <img src="img/header/social_networks/twitter-icon.svg" alt="Twitter icon">
                     </a>
                 </li>
-                <li class="nav_bar__icons">
+                <li class="header__icons-icons">
                     <a class="nav_bar_link_icon" href="#">
                         <img src="img/header/social_networks/facebook-icon.svg" alt="Facebook icon">
                     </a>
                 </li>
-                <li class="nav_bar__icons">
+                <li class="header__icons-icons">
                     <a class="nav_bar_link_icon" href="#">
                         <img src="img/header/social_networks/linkedin-icon.svg" alt="Instagram icon">
                     </a>
                 </li>
             </ul>
         </nav>
-        <div class="header__texts">
+        <div class="header__hero">
             <h1>The best products start with Figma</h1>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers<p>
-            <button type="button" name="try_it">Try it for free</button>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers
+            <p>
+                <button type="button" name="try_it">Try it for free</button>
         </div>
 
     </header>
@@ -115,8 +123,8 @@
                                 alt="Uber icon"></a>
                     </li>
                     <li class="partners__list--item">
-                        <a class="partners__link" href="#"><img class="partners_logo" src="img/partners/dropbox-logo.jpg"
-                                alt="Dropbox icon"></a>
+                        <a class="partners__link" href="#"><img class="partners_logo"
+                                src="img/partners/dropbox-logo.jpg" alt="Dropbox icon"></a>
                     </li>
                     <li class="partners__list--item">
                         <a class="partners__link" href="#"><img class="partners_logo" src="img/partners/google-logo.jpg"
@@ -203,8 +211,8 @@
                             <input class="contacts_form_email" type="email" placeholder="Your Email" required>
                         </li>
                         <li class="contacts_names_list">
-                            <textarea class="contacts_form_textarea" cols="30" rows="10"
-                                placeholder="Your Message" required></textarea>
+                            <textarea class="contacts_form_textarea" cols="30" rows="10" placeholder="Your Message"
+                                required></textarea>
                         </li>
                         <li class="contacts_names_list">
                             <button class="button contacts_form_button">Send</button>
@@ -249,7 +257,7 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="column_one">
+        <div class="footer__column-one">
             <h3>Page</h3>
             <ul style="list-style-type:none">
                 <li><a href="#">Home</a></li>
@@ -259,7 +267,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="column_two">
+        <div class="footer__column-two">
             <h3>Tomothy</h3>
             <ul style="list-style-type:none">
                 <li><a href="#">Eleanor Edwards</a></li>
@@ -269,7 +277,7 @@
                 <li><a href="#">Gloria Richards</a></li>
             </ul>
         </div>
-        <div class="column_third">
+        <div class="footer__column-third">
             <h3>Jane Black</h3>
             <ul style="list-style-type:none">
                 <li><a href="#">Philip Jones</a></li>
@@ -279,9 +287,9 @@
                 <li><a href="#">Bruce Simmmons</a></li>
             </ul>
         </div>
-        <div class="footer_contacts">
-            <div class="right_block">
-                <ul class="footer_contacts_point_phone">
+        <div class="footer__contacts">
+            <div class="footer__contacts--right_block">
+                <ul class="footer__contacts--point_phone">
                     <li class="footer_contacts_point">
                         <img src="img/footer/map-icon.svg" alt="Map icon">
                         <p>7480 Mockingbird Hill undefined</p>
@@ -292,18 +300,18 @@
                     </li>
                 </ul>
             </div>
-            <ul class="nav_bar_icons">
-                <li class="nav_bar_icons">
+            <ul class="header__icons-list">
+                <li class="header__icons-icons">
                     <a class="nav_bar_link_icon" href="#">
                         <img src="img/header/social_networks/twitter-icon.svg" alt="Twitter icon">
                     </a>
                 </li>
-                <li class="nav_bar_icons">
+                <li class="header__icons-icons">
                     <a class="nav_bar_link_icon" href="#">
                         <img src="img/header/social_networks/facebook-icon.svg" alt="Facebook icon">
                     </a>
                 </li>
-                <li class="nav_bar_icons">
+                <li class="header__icons-icons">
                     <a class="nav_bar_link_icon" href="#">
                         <img src="img/header/social_networks/linkedin-icon.svg" alt="Instagram icon">
                     </a>
